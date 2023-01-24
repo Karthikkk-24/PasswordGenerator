@@ -6,4 +6,86 @@
 
 body {
   margin: 0 !important;
+  height: 100vh;
+  width: 100vw;
+}
+
+.flex_row {
+  display: flex;
+  flex-direction: row;
+  gap: 0.7rem;
+}
+
+.page {
+  height: 100%;
+  width: 100%;
+
+  background: linear-gradient(-120deg, #ee0979, #ff6a00);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  gap: 0.4rem;
+}
+
+input {
+  width: 20vw;
+  height: 6vh;
+  border-radius: 8px;
+  border: 2px solid white;
+  background: rgba(255, 255, 255, 0.25);
+  padding-left: 1vw;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+label {
+  font-size: 24px;
+  text-align: start;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+}
+
+.add_btn {
+  width: 3vw;
+  height: 6.4vh;
+  border: 2px solid white;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.generated_passwords {
+  width: 60vw;
+}
+
+.generated_passwords table {
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.generated_passwords table tr,
+.generated_passwords table th {
+  font-size: 1.3em;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: start;
+}
+
+.generated_passwords table td {
+  font-size: 1.1em;
+  color: white;
+  padding: 1rem 2rem;
 }
