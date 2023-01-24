@@ -59,33 +59,21 @@ label {
 
 .add_btn {
   width: 3vw;
-  height: 6.4vh;
+  height: 6vh;
   border: 2px solid white;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.25);
 }
 
-.generated_passwords {
+.password_toggles {
   width: 60vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.generated_passwords table {
-  width: 100%;
-  border: 2px solid white;
-  border-radius: 20px;
-  background: rgba(255, 255, 255, 0.25);
-}
-
-.generated_passwords table tr,
-.generated_passwords table th {
-  font-size: 1.3em;
-  color: white;
-  padding: 1rem 2rem;
-  text-align: start;
-}
-
-.generated_passwords table td {
-  font-size: 1.1em;
-  color: white;
-  padding: 1rem 2rem;
+.form-check-label {
+  font-weight: normal;
+  font-size: 20px;
 }

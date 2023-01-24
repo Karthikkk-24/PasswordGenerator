@@ -1,4 +1,7 @@
 let password = document.getElementById('password');
+let uppercase = document.getElementById('uppercase');
+let numbers = document.getElementById('numbers');
+let specialcharacters = document.getElementById('specialcharacters');
 
 function generatePassword(length, includeLowercase, includeUppercase, includeNumbers, includeSpecial) {
     let characterSet = "";
@@ -24,5 +27,5 @@ function generatePassword(length, includeLowercase, includeUppercase, includeNum
 }
 
 function generate_password() {
-    password.value = generatePassword(12, true, true, true, true);
+    password.value = generatePassword(12, true, (uppercase.checked), (numbers.checked), (specialcharacters.checked));
 }
