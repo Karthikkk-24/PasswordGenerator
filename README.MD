@@ -1,7 +1,8 @@
 <h1>Password Generator</h1>
 <br>
 <p>A sleek and user-friendly password generator built with HTML, CSS, and JavaScript. With a responsive design that adapts to any screen size, this generator is perfect for creating secure and unique passwords.</p>
-![JavaScriptPasswordGenerator](https://user-images.githubusercontent.com/86278623/214464982-d29afc96-c1ee-4a23-ac3d-6437ea2e9ece.png)
+
+![JavascriptPasswordGenerator](https://github.com/Karthikkk-24/PasswordGenerator/blob/main/images/JavaScriptPasswordGenerator.png)
 
 
 
